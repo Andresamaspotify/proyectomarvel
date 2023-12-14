@@ -4,7 +4,7 @@ const Tarjetas = ({ ruta, titulo, descripcion }) => {
   return (
     <>
       <div className="card" style={{ width: "18rem" }}>
-        <img src={ruta}
+        <img src={ruta} 
           className="card-img-top" alt={titulo} title={titulo} />
         <div className="card-body">
           <h5 className="card-title">{titulo}</h5>
